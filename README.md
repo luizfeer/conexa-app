@@ -1,29 +1,69 @@
-Descrição:
-Precisamos construir um front onde nossos médicos de plantão consigam agendar atendimentos para os pacientes e listar os atendimentos agendados.
+# Bem vindo ao desafio Front-end Conexa!
 
-Será necessário ter uma tela de login para que médicos da clínica Conexa Saúde consigam acessar a aplicação, utilizando email e senha (Podem realizar o login com qualquer usuário de teste).
-O response do login será um token de validação e o nome do médico.
+### O Caso
 
-O médico poderá cadastrar, listar e detalhar uma consulta.
+Precisamos construir um front onde nossos médicos de plantão consigam ver as consultas agendadas e agendar novas consultas.
 
-Link da API: http://desafio.conexasaude.com.br/swagger-ui.html#/desafio-rest
+Será necessário ter uma tela de login para que médicos da clínica consigam acessar a aplicação, utilizando email e senha (no fim deste README você verá as credenciais para teste).
 
-Requisitos:
+A response do login será um token de validação e o nome do médico.
 
-- Desenvolver uma aplicação usando Vue JS;
-- Clonar este repositório, criar uma nova branch e abrir um merge request para master;
+O médico poderá listar e cadastrar consultas.
 
-Serão avaliados os seguintes itens:
+No projeto há um diretório com o backend com os dados mockados. Basta, dentro do diretório /backend, rodar:
 
-- Clareza do código;
-- Estrutura criada para a aplicação;
-- Se os requisitos descritos acima foram atendidos;
-- Se possui descrição clara de como montar o ambiente local e realizar os testes (se houverem);
+```bash
+yarn
+```
+
+...para instalar as dependências, e logo após rodar:
+
+```bash
+yarn dev
+```
+
+...para rodar o servidor em http://localhost:3333.
+
+### Recursos
+
+Endpoints:
+
+- Fazer Login => POST http://localhost:3333/login
+- Buscar Consultas => GET http://localhost:3333/consultations?\_expand=patient
+- Nova Consulta => POST http://localhost:3333/consultations
+  - Deve usar o token fornecido pelo login
+  - body: {
+    "patientId": 1,
+    "date": "Fri Feb 05 2021 10:20:00 GMT-0300 (Brasilia Standard Time)"
+    }
+
+### O que você deve fazer
+
+- Fazer o Fork do repositório, criar uma nova branch e abrir um merge request para a master do nosso repositório quando concluir
+- Desenvolver essa aplicação usando ReactJs
+- Atender os requisitos descritos no Caso
+
+### O que será avaliado
+
+- Se os requisitos foram atendidos
+- Conhecimento de git
+- Documentação
+- Clareza e qualidade do código
+- Estrutura da aplicação
+- Bom uso das features da linguagem
+- Aplicação bem testada
+- Fidelidade ao layout
+- O uso de typescript nos deixará mais feliz :)
 
 Em caso de dúvidas sobre o desafio, entre em contato.
 
-Adicionamos um projeto do Postman para auxílio.
+### Layout
 
-Lembre-se que uma boa aplicação é bem testada.
+[Figma](https://www.figma.com/file/eaD2LIOcswFJO2SblVyIeq/Desafio-frontend-Conexa?node-id=1%3A446)
 
-https://www.figma.com/file/eaD2LIOcswFJO2SblVyIeq/Desafio-frontend-Conexa?node-id=1%3A446
+Obs.: A funcionalidade de agendar uma nova consulta deverá ser um modal (Não presente no layout) com os campos necessários, incluindo Datepicker; seguindo mesma linha do layout fornecido.
+
+### Credenciais para teste
+
+email: gandalf@mail.com
+senha: 123456
