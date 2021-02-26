@@ -1,24 +1,44 @@
 {
-  "users": [
+  "consultations": [
     {
       "id": 1,
-      "name": "Tião",
-      "email": "tiao_gaviao@mail.com"
+      "patientId": 1,
+      "date": "Fri Feb 05 2021 10:20:00 GMT-0300 (Brasilia Standard Time)"
     },
     {
-      "name": "Joaquin",
-      "email": "joaquin@jogodobixo.com",
-      "id": 2
+      "id": 2,
+      "patientId": 3,
+      "date": "Fri Feb 05 2021 10:20:00 GMT-0300 (Brasilia Standard Time)"
+    },
+    {
+      "id": 3,
+      "patientId": 2,
+      "date": "Fri Feb 05 2021 10:20:00 GMT-0300 (Brasilia Standard Time)"
+    },
+    {
+      "id": 4,
+      "patientId": 3,
+      "date": "Fri Feb 05 2021 10:20:00 GMT-0300 (Brasilia Standard Time)"
     }
   ],
-  "comments": [
+  "patients": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "first_name": "Frodo",
+      "last_name": "Baggins",
+      "email": "frodo.baggins@mail.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Samwise",
+      "last_name": "Gamgee",
+      "email": "samwise.gamgee@mail.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Saruman",
+      "last_name": "The White",
+      "email": "saruman.thewhite@mail.com"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
