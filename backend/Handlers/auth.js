@@ -10,7 +10,7 @@ const login = (request, response) => {
   if (!validateAuth({ email, password }))
     return response.status(401).json({ message: 'Incorrect credentials' })
 
-  return response.json({ token: FAKE_TOKEN })
+  return response.json({ name: DOCTOR_AUTH.name, token: FAKE_TOKEN })
 }
 
 const validateToken = token => [FAKE_TOKEN, `Bearer ${FAKE_TOKEN}`].includes(token)
