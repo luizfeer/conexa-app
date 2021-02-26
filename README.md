@@ -10,18 +10,20 @@ Link da API: http://desafio.conexasaude.com.br/swagger-ui.html#/desafio-rest
 
 Requisitos:
 
-* Desenvolver uma aplicação usando Vue JS;
-* Clonar este repositório, criar uma nova branch e abrir um merge request para master;
+- Desenvolver uma aplicação usando Vue JS;
+- Clonar este repositório, criar uma nova branch e abrir um merge request para master;
 
 Serão avaliados os seguintes itens:
 
-* Clareza do código;
-* Estrutura criada para a aplicação;
-* Se os requisitos descritos acima foram atendidos;
-* Se possui descrição clara de como montar o ambiente local e realizar os testes (se houverem);
+- Clareza do código;
+- Estrutura criada para a aplicação;
+- Se os requisitos descritos acima foram atendidos;
+- Se possui descrição clara de como montar o ambiente local e realizar os testes (se houverem);
 
 Em caso de dúvidas sobre o desafio, entre em contato.
 
 Adicionamos um projeto do Postman para auxílio.
 
 Lembre-se que uma boa aplicação é bem testada.
+
+https://www.figma.com/file/eaD2LIOcswFJO2SblVyIeq/Desafio-frontend-Conexa?node-id=1%3A446
