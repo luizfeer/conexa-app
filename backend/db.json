@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tião",
+      "email": "tiao_gaviao@mail.com"
+    },
+    {
+      "name": "Joaquin",
+      "email": "joaquin@jogodobixo.com",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
