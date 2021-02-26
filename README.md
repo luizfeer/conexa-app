@@ -9,7 +9,7 @@ Precisamos construir um front onde nossos médicos de plantão consigam ver as c
     <img src="/images/home_320x568px.png" width="40%" align="right"/>
 </div>
 
-Será necessário ter uma tela de login para que médicos da clínica consigam acessar a aplicação, utilizando email e senha (no fim deste README você verá as credenciais para teste).
+Será necessário ter uma tela de login para que médicos da clínica consigam acessar a aplicação, utilizando email e senha ([credenciais para teste](#credenciais-para-teste)).
 
 A response do login será um token de validação e o nome do médico.
 
