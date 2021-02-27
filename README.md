@@ -34,7 +34,7 @@ yarn dev
 Endpoints:
 
 - Fazer Login => POST http://localhost:3333/login
-- Buscar Consultas => GET http://localhost:3333/consultations?\_expand=patient
+- Buscar Consultas => GET http://localhost:3333/consultations?_expand=patient
 - Nova Consulta => POST http://localhost:3333/consultations
   - Deve usar o token fornecido pelo login
   - body: {
