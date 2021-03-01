@@ -24,7 +24,7 @@ yarn
 ...para instalar as dependências, e logo após rodar:
 
 ```bash
-yarn dev
+yarn start
 ```
 
 ...para rodar o servidor em http://localhost:3333.
