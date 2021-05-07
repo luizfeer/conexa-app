@@ -60,6 +60,8 @@ Endpoints:
 - Fidelidade ao layout
 - O uso de typescript nos deixará mais feliz :)
 
+#### Não se limite aos requisitos básicos. Dê o seu melhor! ;)
+
 Em caso de dúvidas sobre o desafio, entre em contato.
 
 ### Layout
