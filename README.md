@@ -29,6 +29,11 @@ npm run start
 
 O servidor ficará disponível em:  http://localhost:3333.
 
+### Deploy
+
+Deploy do front-end: https://conexa-app.pages.dev/
+`Ainda é necessário rodar o backend localmente, as requisições serão feitas em http://localhost:3333`
+
 ### Diferencial
 Como diferencial ao cadastrar uma nova consulta é possível ver consultas já cadastradas do mesmo dia. Por isso o datapicker mantém em uma data específica, e não no dia atual, somente para demonstração de datas já agendadas no BD.
 
