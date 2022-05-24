@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="text-bold text-5xl text-secondary py-8 px-4">Consultas</div>
-    <section class="flex flex-center h-[80vh] mx-2 md:mx-4" v-if="consultations.length>0">
-      <div class="w-full max-w-xl">
+    <section class="flex flex-center h-[80vh] mx-2 md:mx-4 " v-if="consultations.length>0">
+      <div class="w-full max-w-xl pb-20">
         <div class="text-bold text-gray-700 text-base w-full p-1 md:p-4">
         {{ consultations.length }} consultas agendadas
         </div>

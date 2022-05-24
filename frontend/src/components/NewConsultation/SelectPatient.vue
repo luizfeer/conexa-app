@@ -7,6 +7,7 @@
       :option-label="(item) => `${item.first_name} ${item.last_name}`"
       fill-input
       input-debounce="0"
+      class="ml-3"
     >
       <template v-slot:no-option>
         <q-item>
